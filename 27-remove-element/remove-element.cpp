@@ -8,7 +8,7 @@ public:
             }
             else{count +=1;}
         }
-        sort(nums.begin(),nums.end(),greater<int>());
+        sort(nums.begin(),nums.end(),greater<int>());// sort in desc order 
 
         return count;
     }
